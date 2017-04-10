@@ -7,7 +7,7 @@ A Dark theme for the pihole admin page.
 
 ## Easy install
 
-1. Download the install.sh file to this directory: `/var/www/html/`
+1. Download the [install.sh file](https://github.com/lkd70/PiHole-Dark/blob/master/install.sh) to this directory: `/var/www/html/`
 2. open a terminal ( <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd> )
 3. type: `cd /var/www/html`
 4. type: `sudo su` (type your password if promoted)
