@@ -16,7 +16,7 @@ body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-f
 .wrapper:before,.wrapper:after{content:" ";display:table}
 .wrapper:after{clear:both}
 .layout-boxed .wrapper{max-width:1250px;margin:0 auto;min-height:100%;box-shadow:0 0 8px rgba(0,0,0,0.5);position:relative}
-.layout-boxed{background:url(../../img/back.jpg) repeat fixed}
+.layout-boxed{background:url(../../img/back.png) repeat fixed}
 .content-wrapper,.right-side,.main-footer{-webkit-transition:-webkit-transform .3s ease-in-out,margin .3s ease-in-out;-moz-transition:-moz-transform .3s ease-in-out,margin .3s ease-in-out;-o-transition:-o-transform .3s ease-in-out,margin .3s ease-in-out;transition:transform .3s ease-in-out,margin .3s ease-in-out;margin-left:230px;z-index:820}
 .layout-top-nav .content-wrapper,.layout-top-nav .right-side,.layout-top-nav .main-footer{margin-left:0}
 @media (max-width:767px) {
