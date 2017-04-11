@@ -22,6 +22,7 @@ while true; do
             cp temp/admin/style/vendor/AdminLTE.min.css admin/style/vendor/AdminLTE.min.css
             cp temp/admin/style/vendor/AdminLTE.css admin/style/vendor/AdminLTE.css
             cp temp/admin/img/back.png admin/img/back.png
+	    rm -rf temp/
 			break;;
         [Nn]* ) break;;
         * ) echo "Please answer Yes (y) or No (n).";;
