@@ -11,11 +11,8 @@
 
 html,
 body {
-    min-height: 100%
-}
-
-body {
-	color: #969696;
+    min-height: 100%;
+    color: #969696;
 }
 
 .layout-boxed html,
@@ -57,7 +54,7 @@ body {
 }
 
 .layout-boxed {
-    background: url('../../img/back.png') repeat fixed
+    background: url('../../img/boxed-bg.jpg') repeat fixed
 }
 
 .content-wrapper,
@@ -107,15 +104,16 @@ body {
 .content-wrapper,
 .right-side {
     min-height: 100%;
-    background-color: #1B1B1B;
-    z-index: 800
+    background-color: #ecf0f5;
+    z-index: 800;
+	background-color: #1B1B1B;
 }
 
 .main-footer {
     background: #1b1b1b;
     padding: 15px;
     color: #ccc;
-    border-top: 1px solid #d2d6de;
+    border-top: 1px solid #d2d6de
 }
 
 .fixed .main-header,
@@ -185,7 +183,7 @@ a:focus {
 
 .page-header {
     margin: 10px 0 20px 0;
-    font-size: 22px
+    font-size: 22px;
 }
 
 .page-header>small {
@@ -1016,7 +1014,7 @@ a:focus {
     box-shadow: none;
     border-color: #4C4C4C;
     background-color: #1B1B1B;
-    color: #ccc;
+    color: #ccc
 }
 
 .dropdown-menu>li>a {
@@ -1078,7 +1076,7 @@ a:focus {
     background-color: #fff;
     padding: 7px 10px;
     border-bottom: 1px solid #eeeeee;
-    color: #444!important;
+    color: #444 !important;
     text-align: center
 }
 
@@ -1220,6 +1218,9 @@ a:focus {
     z-index: 5;
     height: 90px;
     width: 90px;
+    border: 3px solid;
+    border-color: transparent;
+    border-color: rgba(255, 255, 255, 0.2)
 }
 
 .navbar-nav>.user-menu>.dropdown-menu>li.user-header>p {
@@ -1238,7 +1239,7 @@ a:focus {
 .navbar-nav>.user-menu>.dropdown-menu>.user-body {
     padding: 15px;
     border-bottom: 1px solid #555555;
-    border-top: 1px solid #555555
+    border-top: 1px solid #555555;
 }
 
 .navbar-nav>.user-menu>.dropdown-menu>.user-body:before,
@@ -1253,10 +1254,6 @@ a:focus {
 
 .navbar-nav>.user-menu>.dropdown-menu>.user-body a {
     color: #ccc !important
-}
-
-.navbar-nav>.user-menu>.dropdown-menu>.user-body a:hover {
-    text-decoration: underline;
 }
 
 @media (max-width:991px) {
@@ -1438,7 +1435,6 @@ a:focus {
 }
 
 .input-group .input-group-addon {
-    border-radius: 0;
     border: none;
     background-color: #3A3A3A;
 }
@@ -1706,13 +1702,15 @@ a:focus {
 
 .box {
     position: relative;
+    border-radius: 3px;
     background: #1B1B1B;
-    border: 1px solid #3A3A3A;
+    border-top: 3px solid #3A3A3A;
     margin-bottom: 20px;
     width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
 }
 
-/*.box.box-primary {
+.box.box-primary {
     border-top-color: #3c8dbc
 }
 
@@ -1734,7 +1732,7 @@ a:focus {
 
 .box.box-default {
     border-top-color: #d2d6de
-}*/
+}
 
 .box.collapsed-box .box-body,
 .box.collapsed-box .box-footer {
@@ -1938,15 +1936,15 @@ a:focus {
 }
 
 .box-header {
-    color: white;
-    display: block;
+    color: #fff;
     background-color: #00AAF5;
+    display: block;
     padding: 10px;
     position: relative
 }
 
 .box-header.with-border {
-    /*border-bottom: 1px solid #f4f4f4*/
+    border-bottom: 1px solid #f4f4f4
 }
 
 .collapsed-box .box-header.with-border {
@@ -1988,7 +1986,7 @@ a:focus {
     padding: 5px;
     font-size: 12px;
     background: transparent;
-    color: white;
+    color: #fff;
 }
 
 .open .btn-box-tool,
@@ -2048,6 +2046,7 @@ a:focus {
     border-top-right-radius: 0;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
+    border-top: 1px solid #f4f4f4;
     padding: 10px;
     background-color: #3A3A3A;
 }
@@ -2459,15 +2458,15 @@ a:focus {
     opacity: 0;
     filter: alpha(opacity=0);
     outline: none;
-    background: white;
+    background: #ffffff;
     cursor: inherit;
     display: block
 }
 
 .btn-default {
-	background-color: #242424;
-	color: #ccc;
-	border-color: #343434;
+    background-color: #242424;
+    color: #ccc;
+    border-color: #343434;
 }
 
 .btn-default:hover,
@@ -2475,7 +2474,7 @@ a:focus {
 .btn-default.hover {
     background-color: #343434;
     color: #ccc;
-    border-color: #242424
+    border-color: #242424;
 }
 
 .btn-primary {
@@ -2855,13 +2854,14 @@ a:focus {
 
 .pagination>li>a {
     background: #343434;
-    color: white;
-    border: 1px solid #333;
+    color: #fff;
+    border: 1px solid #333
 }
 
 .pagination>li>a:hover {
-	background: #444444;
-	color: white;
+    background: #444;
+
+    color: #fff
 }
 
 .pagination.pagination-flat>li>a {
@@ -2944,7 +2944,6 @@ a:focus {
 .table tr td .progress {
     margin-top: 5px
 }
-
 
 .table-bordered {
     border: 1px solid #969696;
@@ -4435,7 +4434,7 @@ table.text-center th {
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
     background-color: #3c8dbc;
-    color: white
+    color: #fff;
 }
 
 .select2-results__option {
@@ -5080,105 +5079,110 @@ table.text-center th {
     }
 }
 
-/* Bootstrap overrides */
-.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
-background-color: #242424;
+
+.form-control[disabled],
+.form-control[readonly],
+fieldset[disabled] .form-control {
+    background-color: #242424
 }
 
 .form-control {
-background-color: #242424;
-	color: #969696;
-	border: none;
+    background-color: #242424;
+    color: #969696;
+    border: none
 }
 
 .table-striped>tbody>tr:nth-of-type(odd) {
-background-color: #343434;
+    background-color: #343434
 }
 
-.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
-border: none;
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    border: none
 }
 
 th {
-	border-bottom: 1px solid #969696 !important;
+    border-bottom: 1px solid #969696!important
 }
 
-/* input-groups.less overrides */
 .input-group-addon {
-	color: #979797;
-	font-weight: bold;
+    color: #979797;
+    font-weight: 700
 }
 
-/* panels.less overrides */
 .panel {
-	background-color: #00AAF5;
-	color: white;
+    background-color: #00AAF5;
+    color: #fff
 }
 
 .panel-default {
-	border-color: #343434;
+    border-color: #343434
 }
 
 .panel-default>.panel-heading {
-border-color: #1F1F1F;
-background-color: #121212;
-color: white;
+    border-color: #1F1F1F;
+    background-color: #121212;
+    color: #fff
 }
 
 .panel-body {
-	background-color: #121212;
+    background-color: #121212
 }
 
-
-/* pagination overrides */
-.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
-	background-color: #343434;
-	color: #666;
-	border: none;
-	border: none;
+.pagination>.disabled>a,
+.pagination>.disabled>a:focus,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>span,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>span:hover {
+    background-color: #343434;
+    color: #666;
+    border: none;
+    border: none
 }
 
-.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
-background-color: #555;
-color: white;
-border-color: #444;
-
+.pagination>li>a:focus,
+.pagination>li>a:hover,
+.pagination>li>span:focus,
+.pagination>li>span:hover {
+    background-color: #555;
+    color: #fff;
+    border-color: #444
 }
 
-/* misc overrides */
 tr button {
     background-color: #444;
     border-color: #343434;
     color: red;
-	border-width: 1px;
-	margin: 1px 0 1px 0;
-	border-style: groove !important;
-	font-weight: 300 !important;
-	display: block;
-	width: 90px;
+    border-width: 1px;
+    margin: 1px 0;
+    border-style: groove!important;
+    font-weight: 300!important;
+    display: block;
+    width: 90px
 }
 
 tr td button:hover {
     background-color: #343434;
     border-color: #646464;
-    color: red;
+    color: red
 }
 
-/* list-group.less overrides */
 .list-group-item {
-	background-color: #252525;
-	border: 1px solid #444;
+    background-color: #252525;
+    border: 1px solid #444
 }
 
-/* gird-framework.less overrides */
 pre {
-	color: #ccc;
-	background-color: #343434;
-	border: 1px solid #555;
-	
+    color: #ccc;
+    background-color: #343434;
+    border: 1px solid #555
 }
 
-/* progress.less */
 .progress {
-	background-color: #333;
+    background-color: #333
 }
