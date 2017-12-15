@@ -2742,16 +2742,13 @@ a:focus {
 
 .nav-tabs-custom {
     margin-bottom: 20px;
-    background: #fff;
+    background: #303030;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     border-radius: 3px
 }
 
 .nav-tabs-custom>.nav-tabs {
     margin: 0;
-    border-bottom-color: #f4f4f4;
-    border-top-right-radius: 3px;
-    border-top-left-radius: 3px
 }
 
 .nav-tabs-custom>.nav-tabs>li {
@@ -2761,7 +2758,7 @@ a:focus {
 }
 
 .nav-tabs-custom>.nav-tabs>li>a {
-    color: #444;
+    /*color: #444;*/
     border-radius: 0
 }
 
@@ -2840,7 +2837,7 @@ a:focus {
 }
 
 .nav-tabs-custom>.tab-content {
-    background: #fff;
+    background-color: #303030;
     padding: 10px;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px
@@ -5105,8 +5102,12 @@ fieldset[disabled] .form-control {
     border: none
 }
 
+#sysadmin {
+	background-color: #1B1B1B;
+}
+
 th {
-    border-bottom: 1px solid #969696!important
+    /*border-bottom: 1px solid #969696!important*/
 }
 
 .input-group-addon {
@@ -5185,4 +5186,14 @@ pre {
 
 .progress {
     background-color: #333
+}
+
+.nav-tabs {
+	border-bottom: none;
+}
+
+.nav-tabs-custom .nav-tabs li.active a {
+	background-color: #303030;
+	color: white;
+	border-color: transparent;
 }
