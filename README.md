@@ -28,7 +28,9 @@ Not a fan of the style? Sorry to hear, please feel free to leave some feedback o
 ----------
 
 ## Suggestion?
+
 Something you'd like to see? Or maybe there's an incompatability with a newer version of pi-hole? Please open an issue or make a pull request!
+
 ----------
 
 ## Credits
