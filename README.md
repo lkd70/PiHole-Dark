@@ -1,5 +1,5 @@
 # PiHole-Dark
-A Dark theme for the pihole admin page. (Now FTL compatible)
+A Dark theme for the PiHole admin page. (Now FTL compatible)
 
 
 
@@ -29,13 +29,13 @@ Not a fan of the style? Sorry to hear, please feel free to leave some feedback o
 
 ## Suggestion?
 
-Something you'd like to see? Or maybe there's an incompatability with a newer version of pi-hole? Please open an issue or make a pull request!
+Something you'd like to see? Or maybe there's an incompatibility with a newer version of pi-hole? Please open an issue or make a pull request!
 
 ----------
 
 ## Credits
 
-All credits to the origional creators of these files, I am meerly an editor.
+All credits to the original creators of these files, I am merely an editor.
 All credits to the [Pi-Hole Team](https://pi-hole.net) for their great platform.
 
 Do follow the individual licenses of these files as supplied by the authors.
