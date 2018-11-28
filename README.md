@@ -1,6 +1,7 @@
 # PiHole-Dark
 A Dark theme for the PiHole admin page. (Now FTL compatible)
 
+![alt text](https://raw.githubusercontent.com//branch/path/to/img.png)
 
 
 ----------
