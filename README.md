@@ -33,6 +33,23 @@ Something you'd like to see? Or maybe there's an incompatibility with a newer ve
 
 ----------
 
+## FAQ
+
+### Q: Yuck! Why is the background still white??!? How could you do this to me?
+First of all, I'd like to say sorry for your eyes, I'm sure they hurt the way mine did upon first seeing that sight.
+Let's look at two possible solutions to this.
+#### 1. Create your own pretty background image! (or grabbing one from a background tile/pattern website)
+You can easily replace the ugly image in `/var/www/html/admin/img/boxed-bg.jpg` with a pretty dark one.
+#### 2. To hell with the box! View the website without the 4:3 boxed view.
+You can change to a wide-view from the admin website by navigating to: `Settings -> API / Web Interface -> Web interface settings` and un-checking the `Use boxed layout` option.
+
+### Q: I've installed the theme and nothing has changed? Is this a scam? I want my money back!
+Refunds cost $1 each, please contact me at `totallylegitemail@contact.com`
+
+(Have you tried refreshing your browsers cache? Chances are it's still grabbing the old files)
+
+----------
+
 ## Credits
 
 All credits to the original creators of these files, I am merely an editor.
