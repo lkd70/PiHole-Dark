@@ -1944,7 +1944,7 @@ a:focus {
 }
 
 .box-header.with-border {
-    border-bottom: 1px solid #f4f4f4
+    border-bottom: none
 }
 
 .collapsed-box .box-header.with-border {
