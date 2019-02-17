@@ -1,6 +1,7 @@
 # PiHole-Dark
 A Dark theme for the PiHole admin page. (Now FTL compatible)
 
+![Example dashboard](https://github.com/lkd70/PiHole-Dark/tree/master/docs/example.png)
 
 
 ----------
