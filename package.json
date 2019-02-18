@@ -1,0 +1,32 @@
+{
+  "name": "pihole-dark",
+  "version": "2.0.0",
+  "description": "A dark theme for pi-hole admin dashboard",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-cssjanus": "^0.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lkd70/PiHole-Dark.git"
+  },
+  "keywords": [
+    "pihole",
+    "less",
+    "AdminLTE",
+    "LKD70"
+  ],
+  "author": "LKD70",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lkd70/PiHole-Dark/issues"
+  },
+  "homepage": "https://github.com/lkd70/PiHole-Dark#readme"
+}
