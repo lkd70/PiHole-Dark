@@ -3,7 +3,7 @@
 /*!
  *   AdminLTE v2.1.2
  *   Author: Almsaeed Studio
- *	 Website: Almsaeed Studio <http://almsaeedstudio.com>
+ *   Website: Almsaeed Studio <http://almsaeedstudio.com>
  *   Darkification-Author: LKD70
  *   License: Open source - MIT
  *           Please visit http://opensource.org/licenses/MIT for more information
@@ -104,16 +104,15 @@ body {
 .content-wrapper,
 .right-side {
     min-height: 100%;
-    background-color: #ecf0f5;
     z-index: 800;
-	background-color: #1B1B1B;
+    background-color: #1B1B1B !important;
 }
 
 .main-footer {
-    background: #1b1b1b;
+    background: #1b1b1b !important;
     padding: 15px;
     color: #ccc;
-    border-top: 1px solid #d2d6de
+    border-top: none !important;
 }
 
 .fixed .main-header,
@@ -145,7 +144,7 @@ body {
 }
 
 .content {
-	background-color: #1B1B1B;
+    background-color: #1B1B1B;
     min-height: 250px;
     padding: 15px;
     margin-right: auto;
@@ -364,7 +363,7 @@ a:focus {
 }
 
 .content-header>.breadcrumb>li>a {
-    color: #444;
+    color: #444 !important;;
     text-decoration: none;
     display: inline-block
 }
@@ -937,7 +936,7 @@ a:focus {
 .control-sidebar-dark .nav-tabs.control-sidebar-tabs>li.active>a:focus,
 .control-sidebar-dark .nav-tabs.control-sidebar-tabs>li.active>a:active {
     background: #222d32;
-    color: #fff
+    color: #fff !important;
 }
 
 .control-sidebar-dark .control-sidebar-heading,
@@ -969,7 +968,7 @@ a:focus {
 
 .control-sidebar-light .nav-tabs.control-sidebar-tabs>li>a {
     background: #e8ecf4;
-    color: #444
+    color: #444 !important;
 }
 
 .control-sidebar-light .nav-tabs.control-sidebar-tabs>li>a,
@@ -1061,7 +1060,7 @@ a:focus {
     background-color: #ffffff;
     padding: 7px 10px;
     border-bottom: 1px solid #f4f4f4;
-    color: #444444;
+    color: #444 !important;444 !important;;
     font-size: 14px
 }
 
@@ -1076,7 +1075,7 @@ a:focus {
     background-color: #fff;
     padding: 7px 10px;
     border-bottom: 1px solid #eeeeee;
-    color: #444 !important;
+    color: #444 !important; !important;
     text-align: center
 }
 
@@ -1085,7 +1084,7 @@ a:focus {
     .navbar-nav>.messages-menu>.dropdown-menu>li.footer>a,
     .navbar-nav>.tasks-menu>.dropdown-menu>li.footer>a {
         background: #fff!important;
-        color: #444!important
+        color: #444 !important;!important
     }
 }
 
@@ -1122,7 +1121,7 @@ a:focus {
 }
 
 .navbar-nav>.notifications-menu>.dropdown-menu>li .menu>li>a {
-    color: #444444;
+    color: #444 !important;444 !important;;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -1149,7 +1148,7 @@ a:focus {
 .navbar-nav>.messages-menu>.dropdown-menu>li .menu>li>a>h4 {
     padding: 0;
     margin: 0 0 0 45px;
-    color: #444444;
+    color: #444 !important;444 !important;;
     font-size: 15px;
     position: relative
 }
@@ -1238,8 +1237,8 @@ a:focus {
 
 .navbar-nav>.user-menu>.dropdown-menu>.user-body {
     padding: 15px;
-    border-bottom: 1px solid #555555;
-    border-top: 1px solid #555555;
+    border-bottom: 1px solid #555 !important;
+    border-top: 1px solid #555 !important;
 }
 
 .navbar-nav>.user-menu>.dropdown-menu>.user-body:before,
@@ -1259,7 +1258,7 @@ a:focus {
 @media (max-width:991px) {
     .navbar-nav>.user-menu>.dropdown-menu>.user-body a {
         background: #fff !important;
-        color: #444 !important
+        color: #444 !important; !important
     }
 }
 
@@ -1701,13 +1700,13 @@ a:focus {
 }
 
 .box {
-    position: relative;
-    border-radius: 3px;
-    background: #1B1B1B;
-    border-top: 3px solid #3A3A3A;
-    margin-bottom: 20px;
-    width: 100%;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1)
+    position: relative !important;
+    border-radius: 3px !important;
+    background: #1B1B1B !important;
+    border-top: 3px solid #3A3A3A !important;
+    margin-bottom: 20px !important;
+    width: 100% !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) !important;
 }
 
 .box.box-primary {
@@ -1779,14 +1778,14 @@ a:focus {
 }
 
 .box.box-solid.box-default>.box-header {
-    color: #444;
+    color: #444 !important;;
     background: #d2d6de;
     background-color: #d2d6de
 }
 
 .box.box-solid.box-default>.box-header a,
 .box.box-solid.box-default>.box-header .btn {
-    color: #444
+    color: #444 !important;
 }
 
 .box.box-solid.box-primary {
@@ -1944,11 +1943,11 @@ a:focus {
 }
 
 .box-header.with-border {
-    border-bottom: none
+    border-bottom: none !important
 }
 
 .collapsed-box .box-header.with-border {
-    border-bottom: none
+    border-bottom: none !important
 }
 
 .box-header>.fa,
@@ -2048,7 +2047,7 @@ a:focus {
     border-bottom-left-radius: 3px;
     border-top: 1px solid #f4f4f4;
     padding: 10px;
-    background-color: #3A3A3A;
+    background-color: #3A3A3A !important;
 }
 
 .chart-legend {
@@ -2075,7 +2074,7 @@ a:focus {
     background: #f4f4f4;
     margin-bottom: 2px;
     border-left: 2px solid #e6e7e8;
-    color: #444
+    color: #444 !important;
 }
 
 .todo-list>li:last-of-type {
@@ -2233,7 +2232,7 @@ a:focus {
 }
 
 .modal .panel-body {
-    color: #444
+    color: #444 !important;
 }
 
 .info-box {
@@ -2357,7 +2356,7 @@ a:focus {
     border-radius: 3px;
     margin-top: 0px;
     background: #fff;
-    color: #444;
+    color: #444 !important;;
     margin-left: 60px;
     margin-right: 15px;
     padding: 0;
@@ -2373,7 +2372,7 @@ a:focus {
 
 .timeline>li>.timeline-item>.timeline-header {
     margin: 0;
-    color: #555;
+    color: #555 !important;
     border-bottom: 1px solid #f4f4f4;
     padding: 10px;
     font-size: 16px;
@@ -2393,7 +2392,7 @@ a:focus {
     font-weight: 600;
     padding: 5px;
     display: inline-block;
-    background-color: #fff;
+    background-color: #fff !important;
     border-radius: 4px
 }
 
@@ -2578,7 +2577,7 @@ a:focus {
 
 .btn-app:hover {
     background: #f4f4f4;
-    color: #444;
+    color: #444 !important;;
     border-color: #aaa
 }
 
@@ -2691,14 +2690,14 @@ a:focus {
 .nav>li>a:hover,
 .nav>li>a:active,
 .nav>li>a:focus {
-    color: #444;
+    color: #444 !important;;
     background: #f7f7f7
 }
 
 .nav-pills>li>a {
     border-radius: 0;
     border-top: 3px solid transparent;
-    color: #444
+    color: #444 !important;
 }
 
 .nav-pills>li>a>.fa,
@@ -2721,13 +2720,13 @@ a:focus {
     border-radius: 0;
     border-top: 0;
     border-left: 3px solid transparent;
-    color: #444
+    color: #444 !important;
 }
 
 .nav-stacked>li.active>a,
 .nav-stacked>li.active>a:hover {
     background: transparent;
-    color: #444;
+    color: #444 !important;;
     border-top: 0;
     border-left-color: #3c8dbc
 }
@@ -2742,7 +2741,7 @@ a:focus {
 
 .nav-tabs-custom {
     margin-bottom: 20px;
-    background: #303030;
+    background: #303030 !important;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     border-radius: 3px
 }
@@ -2758,7 +2757,7 @@ a:focus {
 }
 
 .nav-tabs-custom>.nav-tabs>li>a {
-    /*color: #444;*/
+    /*color: #444 !important;;*/
     border-radius: 0
 }
 
@@ -2785,7 +2784,7 @@ a:focus {
 .nav-tabs-custom>.nav-tabs>li.active>a,
 .nav-tabs-custom>.nav-tabs>li.active:hover>a {
     background-color: #fff;
-    color: #444
+    color: #ddd !important;
 }
 
 .nav-tabs-custom>.nav-tabs>li.active>a {
@@ -2827,7 +2826,7 @@ a:focus {
     line-height: 35px;
     padding: 0 10px;
     font-size: 20px;
-    color: #444
+    color: #444 !important;
 }
 
 .nav-tabs-custom>.nav-tabs>li.header>.fa,
@@ -2837,7 +2836,7 @@ a:focus {
 }
 
 .nav-tabs-custom>.tab-content {
-    background-color: #303030;
+    background-color: #303030 !important;
     padding: 10px;
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px
@@ -2856,7 +2855,7 @@ a:focus {
 }
 
 .pagination>li>a:hover {
-    background: #444;
+    background: #444 !important;;
 
     color: #fff
 }
@@ -2943,7 +2942,7 @@ a:focus {
 }
 
 .table-bordered {
-    border: 1px solid #969696;
+    border: 1px solid #969696 !important;
 }
 
 .table-bordered>thead>tr>th,
@@ -2952,7 +2951,7 @@ a:focus {
 .table-bordered>thead>tr>td,
 .table-bordered>tbody>tr>td,
 .table-bordered>tfoot>tr>td {
-    border: 1px solid #f4f4f4
+    border: 1px solid #f4f4f4 !important
 }
 
 .table-bordered>thead>tr>th,
@@ -2982,7 +2981,7 @@ table.text-center th {
 
 .label-default {
     background-color: #d2d6de;
-    color: #444
+    color: #444 !important;
 }
 
 .direct-chat .box-body {
@@ -3044,7 +3043,7 @@ table.text-center th {
     background: #d2d6de;
     border: 1px solid #d2d6de;
     margin: 5px 0 0 50px;
-    color: #444
+    color: #444 !important;
 }
 
 .direct-chat-text:after,
@@ -3263,7 +3262,7 @@ table.text-center th {
 
 .users-list-name {
     font-weight: 600;
-    color: #444;
+    color: #444 !important;;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis
@@ -3432,7 +3431,7 @@ table.text-center th {
 }
 
 .lockscreen-logo a {
-    color: #444
+    color: #444 !important;
 }
 
 .lockscreen-wrapper {
@@ -3499,7 +3498,7 @@ table.text-center th {
 
 .login-logo a,
 .register-logo a {
-    color: #444
+    color: #444 !important;
 }
 
 .login-page,
@@ -3525,7 +3524,7 @@ table.text-center th {
 .register-box-body {
     background: #fff;
     padding: 20px;
-    color: #444;
+    color: #444 !important;;
     border-top: 0;
     color: #666
 }
@@ -3906,7 +3905,7 @@ table.text-center th {
 
 .btn-github {
     color: #fff;
-    background-color: #444;
+    background-color: #444 !important;;
     border-color: rgba(0, 0, 0, 0.2)
 }
 
@@ -3928,7 +3927,7 @@ table.text-center th {
 }
 
 .btn-github .badge {
-    color: #444;
+    color: #444 !important;;
     background-color: #fff
 }
 
@@ -4299,7 +4298,7 @@ table.text-center th {
 .fc-button {
     background: #f4f4f4;
     background-image: none;
-    color: #444;
+    color: #444 !important;;
     border-color: #ddd;
     border-bottom-color: #ddd
 }
@@ -4482,7 +4481,7 @@ table.text-center th {
 
 .select2-container--default .select2-results__option[aria-selected=true],
 .select2-container--default .select2-results__option[aria-selected=true]:hover {
-    color: #444
+    color: #444 !important;
 }
 
 .select2-container--default .select2-selection--multiple {
@@ -5103,7 +5102,7 @@ fieldset[disabled] .form-control {
 }
 
 #sysadmin {
-	background-color: #1B1B1B;
+    background-color: #1B1B1B;
 }
 
 th {
@@ -5150,13 +5149,13 @@ th {
 .pagination>li>a:hover,
 .pagination>li>span:focus,
 .pagination>li>span:hover {
-    background-color: #555;
+    background-color: #555 !important;
     color: #fff;
-    border-color: #444
+    border-color: #444 !important;
 }
 
 tr button {
-    background-color: #444;
+    background-color: #444 !important;;
     border-color: #343434;
     color: red;
     border-width: 1px;
@@ -5174,8 +5173,8 @@ tr td button:hover {
 }
 
 .list-group-item {
-    background-color: #252525;
-    border: 1px solid #444
+    background-color: #252525 !important;
+    border: 1px solid #444 !important;
 }
 
 pre {
@@ -5189,11 +5188,11 @@ pre {
 }
 
 .nav-tabs {
-	border-bottom: none;
+    border-bottom: none;
 }
 
 .nav-tabs-custom .nav-tabs li.active a {
-	background-color: #303030;
-	color: white;
-	border-color: transparent;
+    background-color: #303030 !important;
+    color: white;
+    border-color: transparent;
 }
